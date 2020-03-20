@@ -1,0 +1,9 @@
+{
+  "coreApiName": "mailer",
+  "documentation": {
+    "enable": true,
+    "includes": {
+    "source": "lib/*"
+  }
+  }
+}

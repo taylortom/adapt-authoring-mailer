@@ -1,0 +1,15 @@
+{
+  "error.sendFailed": "Failed to send an email.",
+  "info.sentSuccessfully": "Successfully sent an email.",
+  "info.trySendMail": "Try to send an email.",
+  "info.smtpNotEnabled": "SMTP is not enabled.",
+  "info.smtpUseConnectUrl": "SMTP now uses connection url: %{url}",
+  "info.connected": "connected to %{uri}",
+  "info.smtpOk": "SMTP is enabled",
+  "info.smtpVerified": "SMTP connection verified successfully",
+  "error.smptEmailValidationFailed": "Validation of email address failed. The following email is invalid: %{email}",
+  "error.smptUrlValidationFailed": "Validation of smtp connection url failed. The following url is invalid: %{url}",
+  "error.smptParamsValidationFailed": "Validation of smtp connection paramters failed.",
+  "info.smtpVerifyFailed": "SMTP verify failed. Cannot connect with this SMTP config:  host: %{host}, port: %{port}, username: %{user}, password: %{pass}",
+  "info.smtpByUrlVerifyFailed": "SMTP verify failed. Tested connection url was: %{url}"
+}
