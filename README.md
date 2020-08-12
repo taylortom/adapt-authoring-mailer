@@ -8,7 +8,7 @@ Add this snippet (just as example!) to dev.config.js
     ...
     ,
       "adapt-authoring-mailer": {
-        "enable": true,
+        "useSmtp": true,
         "useConnectionUrl": false,
         "host": "smtp.ethereal.email",
         "port": 587,
