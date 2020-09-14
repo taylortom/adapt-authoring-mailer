@@ -1,47 +1,17 @@
 {
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "type": "object",
-    "properties": {
-        "enable": {
-            "type": "boolean",
-            "description": "Should SMTP be used?",
-            "default": false
-        },
-        "useConnectionUrl": {
-            "type": "boolean",
-            "description": "Do we use a connectionUrl to establish the service?",
-            "default": false
-        },
-        "host": {
-            "type": "string",
-            "description": "A named service for SMTP. (Only needed if enableConnectionUrl is false)",
-            "default": ""
-        },
-        "port": {
-            "type": "number",
-            "description": "Connection port",
-            "default": 587
-        },
-        "user": {
-            "type": "string",
-            "description": "SMTP username. (Only needed if enableConnectionUrl is false)",
-            "default": ""
-        },
-        "pass": {
-            "type": "string",
-            "description": "SMTP password. (Only needed if enableConnectionUrl is false)",
-            "default": ""
-        },
-        "from": {
-            "type": "string",
-            "description": "Address for sender. (Only needed if enableConnectionUrl is false)",
-            "default": ""
-        },
-        "connectionUrl": {
-            "type": "string",
-            "description": "URL the server can be accessed from. (Only needed if enableConnectionUrl is true)",
-            "default": ""
-        }
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "enable": {
+      "type": "boolean",
+      "description": "Should SMTP be used?",
+      "default": false
     },
-    "required": []
+    "connectionUrl": {
+      "type": "string",
+      "description": "URL for smtp service.",
+      "default": ""
+    }
+  },
+  "required": []
 }
