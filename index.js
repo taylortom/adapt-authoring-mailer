@@ -1,2 +1,1 @@
-const MailerModule = require('./lib/mailermodule');
-module.exports = MailerModule;
+module.exports = require('./lib/MailerModule');
