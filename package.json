@@ -5,7 +5,7 @@
     "homepage": "https://github.com/adapt-security/adapt-authoring-mailer",
     "main": "index.js",
     "peerDependencies": {
-        "adapt-authoring-core": "github:adapt-security/adapt-authoring-core.git"
+        "adapt-authoring-core": "adapt-security/adapt-authoring-core"
     },
     "dependencies": {
         "nodemailer": "^6.4.6"
