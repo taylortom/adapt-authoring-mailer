@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2019-09/schema",
   "type": "object",
   "properties": {
-    "enable": {
+    "isEnabled": {
       "type": "boolean",
       "description": "Should SMTP be used?",
       "default": false
