@@ -11,5 +11,5 @@
     "error.smtpUrlValidationFailed": "Validation of smtp connection parameters failed.",
     "error.smtpParamsValidationFailed": "Validation of smtp connection paramters failed.",
     "info.smtpVerifyFailed": "SMTP verify failed. Cannot connect with this SMTP config:  host: %{host}, port: %{port}, username: %{user}, password: %{pass}",
-    "info.smtpByUrlVerifyFailed": "SMTP verify failed. Tested connection url was: %{url}"
+    "info.smtpByUrlVerifyFailed": "SMTP verify failed. Tested connection url was: %{url} %{error}"
 }

@@ -7,27 +7,21 @@ Add this snippet (just as example!) to dev.config.js
     
     ...
     ,
-      "adapt-authoring-mailer": {
-        "useSmtp": true,
-        "useConnectionUrl": false,
-        "host": "smtp.ethereal.email",
-        "port": 587,
-        "user": "whitney2@ethereal.email",
-        "pass": "f2e1ZjCkNxvpN5PaRK",
-        "from": "yourmail@domain.com",
-        "connectionUrl": "smtp://whitney2@ethereal.email:f2e1ZjCkNxvpN5PaRK@smtp.ethereal.email"
-      }
+       "adapt-authoring-mailer": {
+        "isEnabled": true,
+        "connectionUrl": "smtp://some@service.email:xyz@smtp.service.email"
+    },
       
       
-or run "generate-config" script on the main app.
+
+## Known problems
+
+On windows, if you get an error message like "error self signed certificate in certificate chain", it might be due your 
+antivirus scanner: see https://github.com/nodemailer/nodemailer/issues/406
 
 
-## Test
 
-Manual Testing has been done agaist an ethereal fake smtp account
-see: https://ethereal.email/
 
-But Testcode still missing for that.
  
 
 
