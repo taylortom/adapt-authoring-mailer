@@ -15,6 +15,5 @@
       "description": "URL for smtp service.",
       "default": ""
     }
-  },
-  "required": []
+  }
 }
