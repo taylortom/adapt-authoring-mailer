@@ -1,5 +1,5 @@
 const should = require('should');
-const MailerUtils = require('./../lib/mailerUtils');
+const MailerUtils = require('./../lib/MailerUtils');
 const data = require('./data/data');
 describe('Mailer Utils', function () {
   describe('MailerUtils.isValidEmail', function () {
