@@ -1,13 +1,13 @@
 {
-    "name": "adapt-authoring-mailer",
-    "version": "0.0.1",
-    "description": "Basic mailer for the Adapt authoring tool",
-    "homepage": "https://github.com/adapt-security/adapt-authoring-mailer",
-    "main": "index.js",
-    "peerDependencies": {
-        "adapt-authoring-core": "adapt-security/adapt-authoring-core"
-    },
-    "dependencies": {
-        "nodemailer": "^6.4.6"
-    }
+  "name": "adapt-authoring-mailer",
+  "version": "0.0.1",
+  "description": "Basic mailer for the Adapt authoring tool",
+  "homepage": "https://github.com/adapt-security/adapt-authoring-mailer",
+  "main": "index.js",
+  "dependencies": {
+    "nodemailer": "^6.4.6"
+  },
+  "peerDependencies": {
+    "adapt-authoring-core": "adapt-security/adapt-authoring-core"
+  }
 }
