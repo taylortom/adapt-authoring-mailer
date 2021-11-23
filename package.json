@@ -11,6 +11,6 @@
     "nodemailer": "^6.4.6"
   },
   "peerDependencies": {
-    "adapt-authoring-core": "adapt-security/adapt-authoring-core"
+    "adapt-authoring-core": "github:adapt-security/adapt-authoring-core"
   }
 }
