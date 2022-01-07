@@ -1,0 +1,6 @@
+{
+  "MAIL_SEND_FAILED": {
+    "description": "Failed to send error message",
+    "statusCode": 500
+  }
+}
