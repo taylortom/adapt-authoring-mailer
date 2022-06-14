@@ -14,6 +14,11 @@
       "type": "string",
       "description": "URL for smtp service.",
       "default": ""
+    },
+    "defaultSenderAddress": {
+      "type": "string",
+      "format": "email",
+      "description": "Default email address to use as the sender."
     }
   }
 }
