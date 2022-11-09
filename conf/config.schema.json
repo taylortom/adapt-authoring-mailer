@@ -3,21 +3,20 @@
   "type": "object",
   "properties": {
     "isEnabled": {
+      "description": "Whether the mailer module is enabled",
       "type": "boolean",
-      "description": "Should SMTP be used?",
       "default": false,
       "_adapt": {
         "isPublic": true
       }
     },
     "connectionUrl": {
-      "type": "string",
-      "description": "URL for smtp service.",
-      "default": ""
+      "description": "Connection URL for the SMTP service",
+      "type": "string"
     },
     "defaultSenderAddress": {
-      "type": "string",
-      "description": "Default email address to use as the sender."
+      "description": "Default email address to use as the sender",
+      "type": "string"
     }
   }
 }
