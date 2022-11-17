@@ -1,4 +1,8 @@
 {
+  "MAIL_NOT_ENABLED": {
+    "description": "Email functionality is not enabled",
+    "statusCode": 500
+  },
   "MAIL_SEND_FAILED": {
     "description": "Failed to send error email",
     "statusCode": 500
