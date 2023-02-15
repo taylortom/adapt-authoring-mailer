@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$anchor": "maildata",
+  "description": "Email data",
+  "properties": {
+    "to": {
+      "description": "Recipient email address",
+      "type": "string",
+      "format": "email"
+    },
+    "from": {
+      "description": "Sender email address",
+      "type": "string",
+      "format": "email"
+    },
+    "subject": {
+      "description": "Email subject",
+      "type": "string"
+    },
+    "text": {
+      "description": "Email text content",
+      "type": "string"
+    },
+    "html": {
+      "description": "Email HTML content",
+      "type": "string"
+    }
+  },
+  "required": ["to", "from", "subject", "text"]
+}
