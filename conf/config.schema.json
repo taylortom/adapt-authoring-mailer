@@ -9,26 +9,25 @@
       "_adapt": {
         "isPublic": true
       }
-    }
-  },
-  "if": {
-    "properties": { 
-      "isEnabled": { 
-        "const": true 
-      }
-    }
-  },
-  "then": {
-    "properties": { 
-      "connectionUrl": {
-        "description": "Connection URL for the SMTP service",
-        "type": "string"
-      },
-      "defaultSenderAddress": {
-        "description": "Default email address to use as the sender",
-        "type": "string"
-      }
     },
-    "required": ["connectionUrl", "defaultSenderAddress"]
+    "connectionUrl": {
+      "description": "Connection URL for the SMTP service",
+      "type": "string",
+      "format": "uri"
+    },
+    "defaultSenderAddress": {
+      "description": "Default email address to use as the sender",
+      "type": "string"
+    }
+  },
+  "if": { 
+    "properties": { 
+      "isEnabled": { "const": true },
+      "connectionUrl": { "type": "string" },
+      "defaultSenderAddress": { "type": "string" }
+    } 
+  },
+  "then": { 
+    "required": ["connectionUrl", "defaultSenderAddress"] 
   }
 }
