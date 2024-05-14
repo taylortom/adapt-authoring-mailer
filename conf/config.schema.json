@@ -10,6 +10,11 @@
         "isPublic": true
       }
     },
+    "defaultMailTransport": {
+      "description": "Mail transport to use by default",
+      "type": "string",
+      "format": "smtp"
+    },
     "connectionUrl": {
       "description": "Connection URL for the SMTP service",
       "type": "string",
@@ -18,11 +23,6 @@
     "defaultSenderAddress": {
       "description": "Default email address to use as the sender",
       "type": "string"
-    },
-    "pollerWaitTime": {
-      "description": "How long the send success poller waits between polls (in seconds)",
-      "type": "number",
-      "default": 1
     }
   },
   "if": { 
