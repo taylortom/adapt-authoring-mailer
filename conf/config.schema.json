@@ -10,8 +10,8 @@
         "isPublic": true
       }
     },
-    "defaultMailTransport": {
-      "description": "Mail transport to use by default",
+    "mailTransport": {
+      "description": "Mail transport to use",
       "type": "string",
       "format": "smtp"
     },
