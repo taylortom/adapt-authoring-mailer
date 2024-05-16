@@ -10,7 +10,7 @@
         "isPublic": true
       }
     },
-    "mailTransport": {
+    "transport": {
       "description": "Mail transport to use",
       "type": "string",
       "format": "smtp"
